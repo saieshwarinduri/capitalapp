@@ -1,0 +1,43 @@
+.mainContainer {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.select_input {
+  height: 30px;
+  align-self: center;
+}
+.captialLabel {
+  padding-left: 10px;
+}
+.couuntryName {
+  font-weight: 600;
+}
+.smallContainer {
+  height: 60%;
+  width: 90%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .smallContainer {
+    width: 60%;
+    height: 50%;
+  }
+}
+.heading {
+  font-size: 23px;
+  font-family: 'Roboto';
+}
+.capitalContainer {
+  display: flex;
+  flex-direction: row;
+}
